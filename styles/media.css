@@ -1,0 +1,114 @@
+@media screen and (width <=768px) {
+	.header
+	{
+		display: flex;
+		flex-direction: column;
+		row-gap:173px;
+		min-height: 984px;
+	}
+	.header__theme-menu
+	{
+		display: flex;
+    padding-top: 10.75rem;
+    justify-content: flex-end;
+	}
+	.header__theme-menu-list
+	{
+		flex-direction: column;
+	}
+	.header__title-container
+	{
+		gap:162px;
+	}
+	.section__title
+	{
+		width: 236px;
+	}
+	.article__way,
+	.article__advices
+	{
+		width: 100%;
+	}
+	.article__causes
+	{
+		grid-template-columns:1fr;
+		grid-template-rows:repeat(3 , min-content);
+	}
+	.footer {
+		min-height: 984px;
+	}
+	.footer__title
+	{
+		font-size: 6.6667rem;
+	}
+}
+@media screen and (width <=700px)
+{
+	.header
+	{
+		padding:10px;
+	}
+	.header
+	{
+		display: flex;
+		flex-direction: column;
+		row-gap:4.0625rem;
+		min-height: 648px;
+	}
+	.header__theme-menu
+	{
+		display: flex;
+    padding-top: 4.0625rem;
+    justify-content: flex-end;
+	}
+	.header__theme-menu-list
+	{
+		flex-direction: column;
+	}
+	.header__title-container
+	{
+		gap: 55px;
+	}
+	.header__subtitle
+	{
+		width: 100%;
+	}
+	.main
+	{
+		padding: 0 10px;
+		justify-content: start;
+	}
+	.section
+	{
+		flex-direction: column;
+	}
+	.section__image
+	{
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.section__title
+	{
+		width: 100%;
+	}
+	.article__causes
+	{
+		grid-template-columns:1fr;
+		grid-template-rows:repeat(3 , min-content);
+	}
+	.article__list
+	{
+		width: 100%;
+	}
+	.footer {
+		min-height: 648px;
+	}
+}
+@media screen and (width <=400px)
+{
+	body
+	{
+		min-inline-size: 100%;
+	}
+}

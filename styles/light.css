@@ -35,6 +35,5 @@
     --corners-color: var(--main-text-color);
     --link-shadow: var(--title-color);
     --rec-color: var(--background-color);
-		--font-family: "IBM Plex mono";
   }
 }
