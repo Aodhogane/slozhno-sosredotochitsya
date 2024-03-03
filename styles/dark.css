@@ -18,7 +18,7 @@
   --title-decor: var(--title-shadow);
   --link-shadow: var(--title-shadow);
   --rec-color: var(--title-shadow);
-	--text-color:rgb(53, 52, 48);
+  --text-color: rgb(53, 52, 48);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,7 +36,6 @@
     --title-decor: var(--title-shadow);
     --link-shadow: var(--title-shadow);
     --rec-color: var(--title-shadow);
-		--text-color:rgb(53, 52, 48);
+    --text-color: rgb(53, 52, 48);
   }
 }
-
