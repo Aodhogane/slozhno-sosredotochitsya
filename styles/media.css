@@ -5,9 +5,9 @@
 	  row-gap: 17.02vh;
 	  min-height: 984px;
 	}
-
-	.header__title{
-		font-size: 120px;
+  
+	.header__title {
+	  font-size: 120px;
 	}
   
 	.header__theme-menu {
@@ -15,41 +15,39 @@
 	  padding-top: 16.7777777778vh;
 	  justify-content: flex-end;
 	}
-	
+  
 	.header__theme-menu-list {
 	  flex-direction: column;
 	}
-	.header__title-container{
-		gap: 16vh;
+	.header__title-container {
+	  gap: 16vh;
 	}
 	.section__title {
 	  width: 236px;
 	}
-
-	.article__text-bottom{
-		padding-bottom: 20px;
+  
+	.article__text-bottom {
+	  padding-bottom: 20px;
 	}
-
-	.article__way
-	{
-		width: 66%;
+  
+	.article__way {
+	  width: 66%;
 	}
-
+  
 	.article__causes {
 	  grid-template-columns: 1fr;
 	  grid-template-rows: repeat(3, min-content);
 	}
-	
+  
 	.footer {
 	  min-height: 984px;
 	}
-
+  
 	.footer__title {
-		font-size: 120px;
+	  font-size: 120px;
 	}
-	.chrome-fix
-	{
-		min-height: calc(823px - 43px);
+	.chrome-fix {
+	  min-height: calc(823px - 43px);
 	}
   }
   
@@ -61,66 +59,65 @@
 	  row-gap: 4.0625rem;
 	  min-height: 648px;
 	}
-
+  
 	.header__theme-menu {
 	  display: flex;
 	  padding-top: 4.0625rem;
 	  justify-content: flex-end;
 	}
-
+  
 	.header__theme-menu-list {
 	  flex-direction: column;
 	}
-	.header__title-container{
-		gap: 8vh;
+	.header__title-container {
+	  gap: 8vh;
 	}
 	.header__subtitle {
 	  width: 100%;
 	}
-
+  
 	.main {
 	  padding: 0 10px;
-		margin: 30px 0;
-		row-gap: 53px;
+	  margin: 30px 0;
+	  row-gap: 53px;
 	  justify-content: start;
 	}
-
+  
 	.section {
 	  flex-direction: column;
 	}
-	.section-causes,.section-pic
-	{
-		row-gap: 10px;
+	.section-causes,
+	.section-pic {
+	  row-gap: 10px;
 	}
-
+  
 	.section__image {
 	  display: flex;
 	  flex-direction: column;
 	  gap: 10px;
 	}
-
+  
 	.section__title {
 	  width: 100%;
 	}
-
+  
 	.article__causes {
 	  grid-template-columns: 1fr;
 	  grid-template-rows: repeat(3, min-content);
 	}
-
+  
 	.article__list {
 	  width: 100%;
 	}
-
+  
 	.footer {
 	  min-height: 648px;
 	}
-	.chrome-fix
-	{
-		min-height: calc(1400px - 43px);
+	.chrome-fix {
+	  min-height: calc(1400px - 43px);
 	}
   }
-
+  
   @media screen and (width <=400px) {
 	body {
 	  min-inline-size: 100%;

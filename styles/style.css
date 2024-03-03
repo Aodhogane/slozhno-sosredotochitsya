@@ -86,18 +86,17 @@
   font-weight: 700;
   margin-left: -2%;
   line-height: 82.5%;
-	letter-spacing: 0%;
+  letter-spacing: 0%;
   color: var(--title-color);
   text-shadow: 4px 4px 0px var(--title-shadow);
-  gap: 100vh
-
+  gap: 100vh;
 }
 
 .header__title-container {
   grid-area: title;
   display: flex;
   flex-direction: column;
-	row-gap: 14.4vh;
+  row-gap: 14.4vh;
 }
 
 .header__subtitle {
@@ -263,7 +262,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-.chrome-fix
-{
-	min-height: calc(1090px - 43px);
+
+.chrome-fix {
+  min-height: calc(1090px - 43px);
 }

@@ -2,7 +2,6 @@
   Переменные для проекта
   и их переопределение под различные устройства
 */
-:root
-{
-	--font-family: "IBM Plex mono", sans-serif;
+:root {
+  --font-family: "IBM Plex mono", sans-serif;
 }
