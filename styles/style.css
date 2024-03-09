@@ -8,7 +8,7 @@
 
 .header {
   display: grid;
-  margin: 20px;
+  padding: 20px 20px 0;
   position: relative;
   height: 100vh;
   min-height: 668px;
@@ -82,7 +82,7 @@
 }
 
 .header__title {
-  font-size: 157px;
+  font-size: calc(157px);
   font-weight: 700;
   margin-left: -2%;
   line-height: 82.5%;
@@ -113,7 +113,7 @@
   height: 25px;
   border-left: 1px solid var(--corners-color);
   border-bottom: 1px solid var(--corners-color);
-  left: 0px;
+  left: 20px;
   bottom: 20px;
 }
 
@@ -124,7 +124,7 @@
   height: 25px;
   border-right: 1px solid var(--corners-color);
   border-top: 1px solid var(--corners-color);
-  right: 0px;
+  right: 20px;
   top: 20px;
 }
 
@@ -219,7 +219,6 @@
 .title-decor {
   width: 100%;
   font-size: 18px;
-  font-weight: 700;
   line-height: 23.4px;
   letter-spacing: 0%;
   text-align: left;
@@ -249,6 +248,7 @@
   display: grid;
   place-items: center; /* Центрирование по горизонтали и по вертикали */
   position: relative;
+  padding: 20px;
 }
 
 .footer__title {
@@ -263,6 +263,6 @@ img {
   height: auto;
 }
 
-.chrome-fix {
-  min-height: calc(1090px - 43px);
+h4 { 
+  font-weight: normal; 
 }
