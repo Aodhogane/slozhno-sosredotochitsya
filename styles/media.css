@@ -7,7 +7,7 @@
 	}
   
 	.header__title {
-	  font-size: 120px;
+	  font-size: clamp(116px, 119px, 157px);
 	}
   
 	.header__theme-menu {
@@ -19,9 +19,11 @@
 	.header__theme-menu-list {
 	  flex-direction: column;
 	}
+  
 	.header__title-container {
 	  gap: 16vh;
 	}
+  
 	.section__title {
 	  width: 236px;
 	}
@@ -44,7 +46,7 @@
 	}
   
 	.footer__title {
-	  font-size: 120px;
+	  font-size: clamp(116px, 120px, 157px);
 	}
   }
   
@@ -66,9 +68,11 @@
 	.header__theme-menu-list {
 	  flex-direction: column;
 	}
+  
 	.header__title-container {
 	  gap: 8vh;
 	}
+  
 	.header__subtitle {
 	  width: 100%;
 	}
@@ -83,11 +87,13 @@
 	.section {
 	  flex-direction: column;
 	}
+  
 	.section-causes {
 	  row-gap: 20px;
 	}
   
 	.section-pic {
+	  display: flex;
 	  row-gap: 10px;
 	}
   
@@ -131,6 +137,10 @@
   
 	.footer {
 	  padding: 0 10px 10px;
+	}
+  
+	.footer__title {
+	  font-size: clamp(7.25rem, 5.769rem + 6.317vw, 9.813rem);
 	}
   }
   
