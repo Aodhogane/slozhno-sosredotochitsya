@@ -56,7 +56,11 @@
 	  flex-direction: column;
 	  row-gap: 4.0625rem;
 	  min-height: 648px;
-	  padding: 10px 10px 0;
+	  padding: 10px 10px;
+	}
+
+	.header__title{
+		margin-left: -1.2%;
 	}
   
 	.header__theme-menu {
