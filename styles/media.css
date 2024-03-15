@@ -7,8 +7,7 @@
 	}
   
 	.header__title {
-	  font-size: clamp(116px, 119px, 157px);
-
+		font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 	}
   
 	.header__theme-menu {
@@ -75,7 +74,7 @@
 	}
 
 	.header__title{
-		margin: -20px;
+		margin: 0 0 0 -20px;
 	}
   
 	.header__subtitle {
