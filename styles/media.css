@@ -7,7 +7,7 @@
 	}
   
 	.header__title {
-		font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+	  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 	}
   
 	.header__theme-menu {
@@ -58,7 +58,7 @@
 	  min-height: 648px;
 	  padding: 10px 10px;
 	}
-
+  
 	.header__theme-menu {
 	  display: flex;
 	  padding-top: 4.0625rem;
@@ -72,9 +72,9 @@
 	.header__title-container {
 	  gap: 8vh;
 	}
-
-	.header__title{
-		margin: 0 0 0 -20px;
+  
+	.header__title {
+	  margin: 0 0 0 -20px;
 	}
   
 	.header__subtitle {
@@ -152,13 +152,13 @@
 	body {
 	  min-inline-size: 100%;
 	}
-
-	.header{
-		margin: 0;
+  
+	.header {
+	  margin: 0;
 	}
-
-	.header__title{
-		margin: 0;
+  
+	.header__title {
+	  margin: 0;
 	}
   }
   
